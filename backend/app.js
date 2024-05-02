@@ -16,7 +16,7 @@ app.use(cors({
 
 app.use(express.json()); // takes the json string and converts into json object
 app.use(express.urlencoded({extended:true}));
-app.use('api/reservation', reservationRouter);
+app.use('/api/reservation', reservationRouter);
 
 dbConnection();
 
