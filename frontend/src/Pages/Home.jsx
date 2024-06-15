@@ -3,6 +3,7 @@ import HeroSection from '../Components/HeroSection'
 import About from '../Components/About'
 import Qualities from '../Components/Qualities'
 import Menu from '../Components/Menu'
+import WhoAreWe from '../Components/WhoAreWe'
 const Home = () => {
   return (
     <div>
@@ -10,6 +11,7 @@ const Home = () => {
         <About/>
         <Qualities/>
         <Menu/>
+        <WhoAreWe/>
     </div>
   )
 }
