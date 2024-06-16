@@ -5,6 +5,7 @@ import Qualities from '../Components/Qualities'
 import Menu from '../Components/Menu'
 import WhoAreWe from '../Components/WhoAreWe'
 import Team from '../Components/Team'
+import Reservation from '../Components/Reservation'
 const Home = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const Home = () => {
         <Menu/>
         <WhoAreWe/>
         <Team/>
+        <Reservation/>
     </div>
   )
 }
